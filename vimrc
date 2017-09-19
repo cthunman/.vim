@@ -7,7 +7,7 @@ colorscheme smyck
 set guifont=Menlo\ Regular:h18
 
 set lines=60 columns=240
-set colorcolumn=80
+set colorcolumn=90
 set number
 
 map <leader>s :source ~/.vimrc<CR>
@@ -39,4 +39,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " https://github.com/wincent/command-t/
 set wildignore+=*.log,*.sql,*.cache
 noremap <Leader>r :CommandTFlush<CR>
-
+" https://github.com/tpope/vim-fugitive
+" git@github.com:ervandew/supertab.git
+" git@github.com:nvie/vim-flake8.git
