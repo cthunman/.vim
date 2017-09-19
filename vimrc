@@ -24,6 +24,7 @@ set expandtab
 set smartindent
 set autoindent
 set showmatch
+set updatetime=250
 
 autocmd BufWritePre * :%s/\s\+$//e
 set hlsearch
