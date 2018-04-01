@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+set term=screen-256color
+
 filetype on
 syntax on
 colorscheme smyck
