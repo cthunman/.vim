@@ -22,3 +22,9 @@
 [submodule "bundle/vim-flake8"]
 	path = bundle/vim-flake8
 	url = git@github.com:nvie/vim-flake8.git
+[submodule "/Users/Carl/.vim/bundle/vim-jsx"]
+	path = /Users/Carl/.vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "/Users/Carl/.vim/bundle/vim-javascript"]
+	path = /Users/Carl/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
