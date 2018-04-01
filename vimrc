@@ -29,6 +29,9 @@ set autoindent
 set showmatch
 set updatetime=250
 
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+
 autocmd BufWritePre * :%s/\s\+$//e
 set hlsearch
 nnoremap <leader><leader> :e#<CR>
